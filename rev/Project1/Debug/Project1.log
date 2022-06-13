@@ -1,9 +1,0 @@
-﻿  main.cpp
-main.obj : error LNK2019: unresolved external symbol _closesocket@4 referenced in function _main
-main.obj : error LNK2019: unresolved external symbol _connect@12 referenced in function _main
-main.obj : error LNK2019: unresolved external symbol _htons@4 referenced in function _main
-main.obj : error LNK2019: unresolved external symbol _inet_addr@4 referenced in function _main
-main.obj : error LNK2019: unresolved external symbol _socket@12 referenced in function _main
-main.obj : error LNK2019: unresolved external symbol _WSAStartup@8 referenced in function "void __cdecl start(void)" (?start@@YAXXZ)
-main.obj : error LNK2019: unresolved external symbol _WSACleanup@0 referenced in function _main
-C:\Users\WinWin\Desktop\Project1\Debug\Project1.exe : fatal error LNK1120: 7 unresolved externals
