@@ -1,0 +1,12 @@
+﻿  main.cpp
+C:\Users\WinWin\Desktop\PR01\rev\Project1\main.cpp(96,6): warning C4101: 'a': unreferenced local variable
+C:\Users\WinWin\Desktop\PR01\rev\Project1\main.cpp(99,6): warning C4101: 'avvdsfsdfsdf': unreferenced local variable
+C:\Users\WinWin\Desktop\PR01\rev\Project1\main.cpp(97,6): warning C4101: 'b': unreferenced local variable
+C:\Users\WinWin\Desktop\PR01\rev\Project1\main.cpp(98,6): warning C4101: 'c': unreferenced local variable
+C:\Users\WinWin\Desktop\PR01\rev\Project1\main.cpp(136,20): warning C4244: '=': conversion from 'SOCKET' to 'int', possible loss of data
+  Generating code
+  1 of 14 functions ( 7.1%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  Project1.vcxproj -> C:\Users\WinWin\Desktop\PR01\rev\x64\Release\Project1.exe
