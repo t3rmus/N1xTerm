@@ -5,6 +5,9 @@
 ## COMMANDS
 #### moveme -> move reverse shell to startup folder
 #### logme -> to download keylogger
+#### startme -> to start server for files
+#### killme -> to kill server process 
+#### leaveme -> exit
 
 ## HOW TO USE
 #### In file server.c and reverse shell change port and ip
