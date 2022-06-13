@@ -49,18 +49,18 @@ int main(){
     while(1){
         printf("%s<$SHELL$>%s ",BOLD_MAGENTA,RESET);
         fgets(input,sizeof(input),stdin);
-        if(strncmp(input,"termus1",7) == 0){
+        if(strncmp(input,"startme",7) == 0){
             FILE *term = popen("python3 -m http.server &","w");
             fclose(term);
         }
-        else if(strncmp(input,"termus0",7) == 0){
+        else if(strncmp(input,"leaveme",7) == 0){
             printf("%s\nExiting...%s\n",BOLD_RED,RESET);
             close(sock);
             return 0;
         }
         puts("");
         send(n_sock,input,sizeof(input),0);
-        if(strncmp(input,"termus1",7) == 0){
+        if(strncmp(input,"killme",6) == 0){
             FILE *term = popen("pkill python","w");
             fclose(term);
         }
